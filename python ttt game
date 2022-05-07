@@ -1,0 +1,14 @@
+import random
+
+a = ["","","","","","","","",""]
+def ttt():
+   print(a[0] + "   !  "  + a[1] + " !  " + a[2])
+   print("------------")
+   print("------------")
+   print(a[3] + "   !  "  + a[4] + " !  " + a[5])
+   print(a[6] + "   !  "  + a[7] + " !  " + a[8])
+ttt()
+while True:
+   b = int(input("원하는 칸 숫자를 입력해주세요:"))
+   a[b] = "O"
+   ttt()
